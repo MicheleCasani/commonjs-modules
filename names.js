@@ -1,3 +1,5 @@
-function names(firstName, lastName){
+function names(firstName, lastName) {
     return firstName + ' ' + lastName;
 }
+
+module.export = names;
